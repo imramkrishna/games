@@ -38,10 +38,18 @@ Node.js (v18 or newer)
 npm or yarn
 Installation
 Clone the repository
-` cd backend`
+
+git clone https://github.com/yourusername/gamehub.git
+cd gamehub
 Install dependencies
+npm install
+# or
+yarn
 
 Start the development server
+npm run dev
+# or
+yarn dev
 
 Open http://localhost:3000 in your browser
 
