@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/site-footer"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex flex-col min-h-screen">
       <SiteHeader />
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-muted/50 to-muted">
@@ -22,7 +22,7 @@ export default function Home() {
               <div className="space-x-4">
                 <Link
                   href="/games/flappy-bird"
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                  className="inline-flex items-center justify-center h-10 px-8 text-sm font-medium transition-colors rounded-md shadow bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 >
                   Play Now
                 </Link>
@@ -43,21 +43,21 @@ export default function Home() {
                 <GameCard
                   title="Flappy Bird"
                   description="Navigate through pipes and set a high score in this addictive classic."
-                  image="/placeholder.svg?height=300&width=400"
+                  image="/flappybird.avif?height=300&width=400"
                   href="/games/flappy-bird"
                   featured={true}
                 />
                 <GameCard
                   title="Snake"
                   description="Grow your snake by eating food while avoiding walls and your own tail."
-                  image="/placeholder.svg?height=300&width=400"
+                  image="/snakegame.avif?height=300&width=400"
                   href="/games/snake"
                   featured={true}
                 />
                 <GameCard
                   title="Tetris"
                   description="Arrange falling blocks to create complete lines in this timeless puzzle game."
-                  image="/placeholder.svg?height=300&width=400"
+                  image="/tetris.png?height=300&width=400"
                   href="/games/tetris"
                   featured={true}
                 />
