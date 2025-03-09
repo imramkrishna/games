@@ -23,7 +23,7 @@ export function SiteFooter() {
             Tetris
           </Link>
         </nav>
-        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Ram Krishna Yadav. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} <Link href="https://ramkrishnacode.tech/" target="_blank" className="hover:text-gray-700">Ram Krishna Yadav.</Link>  All rights reserved.</p>
       </div>
     </footer>
   )
